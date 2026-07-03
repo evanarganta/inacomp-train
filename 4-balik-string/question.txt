@@ -1,0 +1,66 @@
+Balik String
+1s
+256MB
+Balik String
+
+Diberikan sebuah string S. Cetak string tersebut dalam urutan terbalik.
+Format Input
+
+Baris pertama berisi string S.
+Format Output
+
+Keluarkan satu baris berisi string S yang telah dibalik.
+Batasan
+
+    1 ≤ |S| ≤ 1000
+    S berisi karakter alfanumerik tanpa spasi.
+
+Contoh Input 1
+
+inacomp
+
+Contoh Output 1
+
+pmocani
+
+Contoh Input 2
+
+hello
+
+Contoh Output 2
+
+olleh
+
+Contoh Input 3
+
+A
+
+Contoh Output 3
+
+A
+
+Sample Cases
+
+Sample Input 1
+
+inacomp
+
+Sample Output 1
+
+pmocani
+
+Sample Input 2
+
+hello
+
+Sample Output 2
+
+olleh
+
+Sample Input 3
+
+A
+
+Sample Output 3
+
+A

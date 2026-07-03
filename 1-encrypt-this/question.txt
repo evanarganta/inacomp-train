@@ -1,0 +1,61 @@
+Back to Problems
+Problem 4
+Latihan
+Encrypt This!
+2s
+256MB
+Encrypt This!
+
+You want to create secret messages which can be deciphered by the Decipher this! kata.
+Encryption Rules
+
+For each word in the message:
+
+    The first letter must be converted to its ASCII code.
+    The second letter must be switched/swapped with the last letter.
+
+Input Format
+
+A single line containing space-separated words representing the message.
+Output Format
+
+Print the encrypted secret message to standard output.
+Constraints
+
+    Message Length: Between 1 and 10,000 characters.
+    Allowed Characters: Words contain only uppercase and lowercase English alphabets.
+    Special Characters: No special characters in the input.
+
+Sample Cases
+
+Sample Input 1
+
+Hello
+
+Sample Output 1
+
+72olle
+
+Sample Input 2
+
+good
+
+Sample Output 2
+
+103doo
+
+Sample Input 3
+
+hello world
+
+Sample Output 3
+
+104olle 119drlo
+
+Sample Input 4
+
+A wise old owl lived in an oak
+
+Sample Output 4
+
+65 119esi 111dl 111lw 108dvei 105n 97n 111ka

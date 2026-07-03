@@ -1,0 +1,65 @@
+Cek Bilangan Prima
+1s
+256MB
+Cek Bilangan Prima
+
+Diberikan sebuah bilangan bulat positif N. Tentukan apakah N merupakan bilangan prima atau bukan.
+Format Input
+
+Baris pertama berisi sebuah bilangan bulat positif N.
+Format Output
+
+Keluarkan YA jika N adalah bilangan prima, atau TIDAK jika bukan.
+Batasan
+
+    1 ≤ N ≤ 10^9
+
+Contoh Input 1
+
+29
+
+Contoh Output 1
+
+YA
+
+Contoh Input 2
+
+4
+
+Contoh Output 2
+
+TIDAK
+
+Contoh Input 3
+
+1
+
+Contoh Output 3
+
+TIDAK
+
+Sample Cases
+
+Sample Input 1
+
+29
+
+Sample Output 1
+
+YA
+
+Sample Input 2
+
+4
+
+Sample Output 2
+
+TIDAK
+
+Sample Input 3
+
+1
+
+Sample Output 3
+
+TIDAK

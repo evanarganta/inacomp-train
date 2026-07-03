@@ -1,0 +1,74 @@
+Problem 9
+Latihan
+Elemen Terkecil Kedua
+1s
+256MB
+Elemen Terkecil Kedua
+
+Diberikan sebuah array dari N bilangan bulat unik. Temukan nilai terkecil kedua dari array tersebut.
+Format Input
+
+Baris pertama berisi satu bilangan bulat N. Baris kedua berisi N buah bilangan bulat unik yang dipisahkan oleh spasi.
+Format Output
+
+Keluarkan satu baris berisi satu bilangan bulat yaitu elemen terkecil kedua.
+Batasan
+
+    2 ≤ N ≤ 10^5
+    -10^9 ≤ elemen array ≤ 10^9
+
+Contoh Input 1
+
+5
+12 3 5 7 10
+
+Contoh Output 1
+
+5
+
+Contoh Input 2
+
+3
+100 -50 0
+
+Contoh Output 2
+
+0
+
+Contoh Input 3
+
+4
+-10 -20 -30 -40
+
+Contoh Output 3
+
+-30
+
+Sample Cases
+
+Sample Input 1
+
+5
+12 3 5 7 10
+
+Sample Output 1
+
+5
+
+Sample Input 2
+
+3
+100 -50 0
+
+Sample Output 2
+
+0
+
+Sample Input 3
+
+4
+-10 -20 -30 -40
+
+Sample Output 3
+
+-30

@@ -1,0 +1,79 @@
+Frekuensi Caesar
+1s
+256MB
+Analisis Frekuensi Caesar Cipher
+
+Sebuah pesan terenkripsi menggunakan Caesar Cipher dengan pergeseran (shift) antara 1 hingga 25. Anda diberikan ciphertext yang hanya berisi huruf kapital A-Z tanpa spasi. Tentukan plaintext yang paling mungkin dengan asumsi bahwa huruf yang paling sering muncul pada plaintext adalah huruf 'E'.
+Format Input
+
+Sebuah string ciphertext berisi huruf kapital tanpa spasi.
+Format Output
+
+Plaintext hasil dekripsi yang paling mungkin.
+Batasan
+
+    1 ≤ |ciphertext| ≤ 1000
+
+Contoh Input 1
+
+VKHHH
+
+Contoh Output 1
+
+SHEEE
+
+Contoh Input 2
+
+VHYHQ
+
+Contoh Output 2
+
+SEVEN
+
+Penjelasan Contoh
+
+    Untuk input VKHHH, karakter terpopuler adalah H (muncul 3 kali). Asumsi H berasal dari E.
+    Pergeseran: $shift = ('H' - 'E' + 26) \pmod{26} = 7 - 4 = 3$.
+    Dekripsi dengan pergeseran 3: V-3 = S, K-3 = H, H-3 = E. Hasilnya SHEEE.
+
+Sample Cases
+
+Sample Input 1
+
+VKHHH
+
+Sample Output 1
+
+SHEEE
+
+Sample Input 2
+
+SHHSHS
+
+Sample Output 2
+
+PEEPEP
+
+Sample Input 3
+
+VHYHQ
+
+Sample Output 3
+
+SEVEN
+
+Sample Input 4
+
+JUHHQ
+
+Sample Output 4
+
+GREEN
+
+Sample Input 5
+
+GJJ
+
+Sample Output 5
+
+BEE

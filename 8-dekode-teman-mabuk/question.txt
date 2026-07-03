@@ -1,0 +1,71 @@
+Dekode Teman Mabuk
+1s
+256MB
+Dekode Teman Mabuk
+
+Anda sedang berkumpul dengan teman-teman di sebuah kedai. Tiba-tiba, salah satu teman Anda menjadi sangat mabuk sehingga tidak bisa berbicara dengan jelas. Ketika ia ingin menyampaikan sesuatu, ia menulisnya di secarik kertas. Namun, tidak ada satu pun kata yang ia tulis tampak masuk akal bagi Anda.
+
+Untuk membantu Anda memahami, ia menunjuk ke sebuah gelas bir lalu menuliskan kata "yvvi". Anda pun menyadari bahwa ia menggunakan Cipher Atbash (pengodean dengan membalik urutan alfabet):
+
+    Huruf kecil: 'a' menjadi 'z', 'b' menjadi 'y', ..., dan seterusnya.
+    Huruf besar: 'A' menjadi 'Z', 'B' menjadi 'Y', ..., dan seterusnya.
+
+Karakter lain seperti angka, spasi, tanda baca, dan karakter khusus tidak mengalami perubahan (tetap sama).
+
+Tugas Anda adalah menulis program untuk mendekode pesan dari teman Anda tersebut. Jika input kosong atau tidak valid (tidak ada string yang terbaca dari input), program harus mengeluarkan pesan "Input is not a string".
+Format Input
+
+Satu baris berisi pesan tersandi yang ditulis oleh teman Anda.
+Format Output
+
+Cetak satu baris berisi pesan yang telah berhasil didekode ke standar output (STDOUT).
+Batasan (Constraints)
+
+    Panjang pesan input antara 0 hingga $10^5$ karakter.
+
+Contoh Kasus
+
+    yvvi -> beer
+    Blf zoivzwb szw 10 yvvih -> You already had 10 beers
+
+Sample Cases
+
+Sample Input 1
+
+yvvi
+
+Sample Output 1
+
+beer
+
+Sample Input 2
+
+Blf zoivzwb szw 10 yvvih
+
+Sample Output 2
+
+You already had 10 beers
+
+Sample Input 3
+
+Ovg'h hdrn rm gsv ulfmgzrm!
+
+Sample Output 3
+
+Let's swim in the fountain!
+
+Sample Input 4
+
+zgyzhs
+
+Sample Output 4
+
+atbash
+
+Sample Input 5
+
+12345
+
+Sample Output 5
+
+12345

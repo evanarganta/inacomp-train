@@ -1,0 +1,66 @@
+Substring Unik Terpanjang
+2s
+256MB
+Substring Terpanjang Tanpa Karakter Berulang
+
+Diberikan sebuah string s yang terdiri dari huruf, angka, atau simbol.
+
+Tugas Anda adalah menemukan panjang dari substring terpanjang yang terdiri dari karakter-karakter unik (tidak ada karakter yang berulang) di dalam s.
+Format Input
+
+Satu baris berisi string s.
+Format Output
+
+Cetak sebuah bilangan bulat ke standar output (STDOUT) yang menyatakan panjang substring terpanjang tanpa karakter berulang.
+Batasan (Constraints)
+
+    $1 \le s.length \le 10^5$
+    String s dapat mengandung huruf (besar/kecil), angka, spasi, atau simbol.
+
+Contoh Kasus
+
+    baacab -> 3 (Substring terpanjang tanpa karakter berulang adalah "cab", dengan panjang 3)
+    abcd -> 4 (Substring terpanjang adalah "abcd", dengan panjang 4)
+    !@#$%^&^%$#@! -> 7 (Substring terpanjang adalah "!@#$%^&", dengan panjang 7)
+
+Sample Cases
+
+Sample Input 1
+
+baacab
+
+Sample Output 1
+
+3
+
+Sample Input 2
+
+abcd
+
+Sample Output 2
+
+4
+
+Sample Input 3
+
+!@#$%^&^%$#@!
+
+Sample Output 3
+
+7
+
+Sample Input 4
+
+aaaaa
+
+Sample Output 4
+
+1
+
+Sample Input 5
+
+pwwkew
+
+Sample Output 5
+
+3

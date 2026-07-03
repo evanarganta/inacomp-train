@@ -1,0 +1,65 @@
+Menghitung Vokal
+1s
+256MB
+Menghitung Vokal
+
+Diberikan sebuah string S yang hanya berisi huruf latin kecil. Hitung berapa banyak huruf vokal ('a', 'i', 'u', 'e', 'o') di dalamnya.
+Format Input
+
+Baris pertama berisi string S.
+Format Output
+
+Keluarkan satu baris berisi sebuah bilangan bulat yang merupakan jumlah huruf vokal dalam S.
+Batasan
+
+    1 ≤ |S| ≤ 10^5
+
+Contoh Input 1
+
+olimpiade
+
+Contoh Output 1
+
+5
+
+Contoh Input 2
+
+inacomp
+
+Contoh Output 2
+
+3
+
+Contoh Input 3
+
+xyz
+
+Contoh Output 3
+
+0
+
+Sample Cases
+
+Sample Input 1
+
+olimpiade
+
+Sample Output 1
+
+5
+
+Sample Input 2
+
+inacomp
+
+Sample Output 2
+
+3
+
+Sample Input 3
+
+xyz
+
+Sample Output 3
+
+0

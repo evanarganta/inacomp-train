@@ -1,0 +1,76 @@
+Base-64 ke Desimal
+1s
+256MB
+Konversi Base-64 ke Desimal (Basis-10)
+
+Sistem bilangan desimal (basis-10) menggunakan digit 0 hingga 9. Di sisi lain, sistem Base-64 memiliki 64 karakter unik ("digit") yang mewakili nilai desimal dari 0 hingga 63. Urutan karakter tersebut dari nilai terkecil hingga terbesar adalah sebagai berikut:
+
+ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
+
+Dengan rincian nilai desimal:
+
+    'A' bernilai 0, 'B' bernilai 1, ..., 'Z' bernilai 25
+    'a' bernilai 26, 'b' bernilai 27, ..., 'z' bernilai 51
+    '0' bernilai 52, ..., '9' bernilai 61
+    '+' bernilai 62
+    '/' bernilai 63
+
+Tugas Anda adalah menulis program yang menerima sebuah string yang mewakili bilangan Base-64, lalu mencetak nilai desimal (basis-10) dari bilangan tersebut ke standar output (STDOUT).
+Format Input
+
+Satu baris berisi string representasi bilangan dalam Base-64.
+Format Output
+
+Cetak sebuah bilangan bulat (desimal) ke STDOUT yang merupakan hasil konversi dari Base-64.
+Batasan (Constraints)
+
+    Panjang string Base-64 antara 1 hingga 10 karakter.
+    Input dijamin hanya berisi karakter-karakter dalam alfabet Base-64 yang valid.
+
+Contoh Kasus
+
+    / -> 63
+    BA -> 64 ($1 imes 64^1 + 0 imes 64^0$)
+    WIN -> 90637
+
+Sample Cases
+
+Sample Input 1
+
+/
+
+Sample Output 1
+
+63
+
+Sample Input 2
+
+BA
+
+Sample Output 2
+
+64
+
+Sample Input 3
+
+WIN
+
+Sample Output 3
+
+90637
+
+Sample Input 4
+
+A
+
+Sample Output 4
+
+0
+
+Sample Input 5
+
+BB
+
+Sample Output 5
+
+65

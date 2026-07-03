@@ -1,0 +1,67 @@
+Problem 5
+Latihan
+FPB Dua Bilangan
+1s
+256MB
+FPB Dua Bilangan
+
+Diberikan dua bilangan bulat positif A dan B. Tentukan Faktor Persekutuan Terbesar (FPB) dari kedua bilangan tersebut.
+Format Input
+
+Baris pertama berisi dua bilangan bulat A dan B yang dipisahkan spasi.
+Format Output
+
+Keluarkan satu bilangan bulat yaitu FPB dari A dan B.
+Batasan
+
+    1 ≤ A, B ≤ 10^9
+
+Contoh Input 1
+
+12 18
+
+Contoh Output 1
+
+6
+
+Contoh Input 2
+
+17 23
+
+Contoh Output 2
+
+1
+
+Contoh Input 3
+
+81 27
+
+Contoh Output 3
+
+27
+
+Sample Cases
+
+Sample Input 1
+
+12 18
+
+Sample Output 1
+
+6
+
+Sample Input 2
+
+35 49
+
+Sample Output 2
+
+7
+
+Sample Input 3
+
+17 23
+
+Sample Output 3
+
+1
